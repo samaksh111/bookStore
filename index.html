@@ -14,13 +14,13 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Courier New', Courier, monospace;
         }
 
         body {
-            background: linear-gradient(270deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1);
+            background: linear-gradient(270deg, #d3df69, #d9ec5e, #efef41, #f1ee05);
             background-size: 800% 800%;
-            animation: gradientBG 10s ease infinite;
+            animation: gradientBG 2s ease infinite;
             color: #333;
             display: flex;
             flex-direction: column;
@@ -80,7 +80,7 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 20px;
+            gap: 80px; /* Increased spacing between blocks */
             margin-top: 20px;
             width: 100%;
             max-width: 1200px;
@@ -88,8 +88,8 @@
 
         .flip-card {
             perspective: 1000px;
-            width: 200px;
-            height: 300px;
+            width: 150px; /* Block width */
+            height: 225px; /* Block height */
             border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -150,7 +150,8 @@
             width: 100%;
             max-width: 1200px;
         }
-        img{
+
+        img {
             border: 3px solid black;
         }
     </style>
